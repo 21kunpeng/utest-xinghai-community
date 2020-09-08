@@ -41,20 +41,24 @@
 ---
 
 - **配置说明**
+
   服务器最低配置建议 2核4G , 建议使用linux服务器部署，如需测试外网接口，请确保宿主机网络畅通
   
 - **容器启动**
+
   docker run -d -v /data/xinghai:/data/xinghai/env/data --name xinghai-community -p 30000:8322 xinghai/xinghai-community:latest
   --name 指定容器名为xinghai-community，可以随意指定。
   -p 是指定端口映射(推荐使用)，容器内暴露端口为8322， -p 30000:8322 就是将宿主机的30000端口映射到容器内的8322端口
   -v 挂载宿主机的目录到容器内的/data/xinghai/env/data目录(mysql和minio数据存储目录,请勿更改)，用以持久化容器数据，保证容器重启和升级数据不丢失
   
 - **进入星海平台**
+
   浏览器打开访问地址：http://localhost:30000/service_test/index.html
   访问地址：ip为宿主机地址，port为启动容器时-p指定的映射端口
   登录，默认账号：admin 密码：admin 首次服务启动较慢，可刷新页面尝试
   
 - **工作目录**
+
   交互式进入容器，工作目录在/data/xinghai
   
 
