@@ -25,7 +25,7 @@
 
 ---
 
-- **官网：http://xinghai.21kunpeng.com**
+- **官网：https://xinghai.21kunpeng.com**
   
 - **邮箱：xinghai@21kunpeng.com**
   
@@ -33,7 +33,7 @@
   
 - **dockerhub下载地址：https://hub.docker.com/r/xinghai/xinghai-community**
   
-- **申请使用企业版：http://xinghai.21kunpeng.com/applicaton.html**
+- **申请使用企业版：https://xinghai.21kunpeng.com/applicaton.html**
   
 
 ### 快速开始
