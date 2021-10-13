@@ -25,11 +25,13 @@
 
 ---
 
-- **官网：https://xinghai.21kunpeng.com**
+- **官网：https://utest.21kunpeng.com**
   
-- **邮箱：xinghai@21kunpeng.com**
+- **邮箱：chaowang@21kunpeng.com**
+
+- **电话：0411-82376688-843186**
   
-- **QQ交流群：1046943423**
+- **QQ交流：3524979341**
   
 - **dockerhub下载地址：https://hub.docker.com/r/xinghai/xinghai-community**
   
